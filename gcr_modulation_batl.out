@@ -1,97 +1,3 @@
-[32m../src/simulation.cc:97: info message: Particle specie added
-[0m[32m../src/simulation.cc:127: info message: Background object added
-[0m[32m../src/simulation.cc:152: info message: Initial condition added
-[0m[32m../src/simulation.cc:152: info message: Initial condition added
-[0m[32m../src/simulation.cc:152: info message: Initial condition added
-[0m[32m../src/simulation.cc:140: info message: Boundary condition added
-[0m[32m../src/simulation.cc:140: info message: Boundary condition added
-[0m[32m../src/simulation.cc:140: info message: Boundary condition added
-[0m[32m../src/simulation.cc:164: info message: Diffusion model added
-[0m[32m../src/simulation.cc:113: info message: Distribution object added
-[0m[32m../src/simulation.cc:113: info message: Distribution object added
-[0m========== MPI Communicators Info ==========
-Number of nodes: 1
-Size of global communicator: 3
-Size of boss communicator: 2
-Size of worker communicator: 2
-Total number of workers: 1
-Trajectories left: 5
-read_file: read and broadcast nLine=  81 lines of text
-
-#HEADFILE
-OH/IO2/3d__var_3_t30000330_n00456411.h		HeadFileName
-     672                nProc
-       T                IsBinary
-       8                nByteReal
-
-#NDIM
-       3                nDim		nDimSim
-
-#GRIDBLOCKSIZE
-       8                BlockSize1
-       8                BlockSize2
-       8                BlockSize3
-
-#ROOTBLOCK
-       1                nRootBlock1
-       1                nRootBlock2
-       1                nRootBlock3
-
-#GRIDGEOMETRYLIMIT
-cartesian               TypeGeometry
-
-#PERIODIC
-       F                IsPeriodic1
-       F                IsPeriodic2
-       F                IsPeriodic3
-
-#NSTEP
-  456411                nStep
-
-#TIMESIMULATION
-  3.1557674194E+10      TimeSimulation
-
-#NCELL
- 264603648              nCellPlot
-
-#CELLSIZE
-  4.5776367188E-02      CellSizeMin1
-  6.1035156250E-02      CellSizeMin2
-  6.1035156250E-02      CellSizeMin3
-
-#PLOTRANGE
- -1.5000000000E+03      CoordMin1
-  1.5000000000E+03      CoordMax1
- -2.0000000000E+03      CoordMin2
-  2.0000000000E+03      CoordMax2
- -2.0000000000E+03      CoordMin3
-  2.0000000000E+03      CoordMax3
-
-#PLOTRESOLUTION
- -1.0000000000E+00      DxSavePlot1
- -1.0000000000E+00      DxSavePlot2
- -1.0000000000E+00      DxSavePlot3
-
-#SCALARPARAM
-      10                nParam
-  1.66667E+00           g		Param
-  2.99790E+05           c		Param
-  0.00000E+00           th		Param
-  1.00000E+00           p1		Param
-  1.00000E+00           p2		Param
-  1.00000E+00           p3		Param
-  8.00000E+00           nx		Param
-  8.00000E+00           ny		Param
-  8.00000E+00           nz		Param
-  1.00000E+00           r		Param
-
-#PLOTVARIABLE
-      10                nPlotVar
-Ux Uy Uz Bx By Bz sectornorm hpnorm lperpnorm delbsquare g c th p1 p2 p3 NX NY NZ R		NameVar
-AU AU AU km/s km/s km/s nT nT nT ? ? ? ?		NameUnit
-
-#OUTPUTFORMAT
-real4		TypeFormat
 3 0 0 0 0 0
 3.10926 0.115515 -0.043943 0 0 0
 3.03503 -0.0446251 0.0201905 0 0 0
@@ -2936,18 +2842,9 @@ real4		TypeFormat
 3.72418 2.31895 0.234292 0 0 0
 3.78503 2.20016 0.262579 0 0 0
 3.56829 2.62777 0.228023 0 0 0
-
-Trajectories completed:                   20 %
-Est. time to finish:                     472 seconds
-Time allocated for job:                14282 seconds
-SIMULATION EFFICIENCY: 
-    3 % of time was spent computing trajectories.
-LOAD BALANCING: 
-    Fastest process has tallied 2 trajectories.
 3.67078 2.4209 0.132156 0 0 0
 3.90323 2.01923 0.155732 0 0 0
 3.85069 2.25409 0.183133 0 0 0
-    Slowest process has tallied 2 trajectories.
 3.84644 2.09437 0.211834 0 0 0
 3.86355 2.04789 0.192276 0 0 0
 3.88914 1.94868 0.227895 0 0 0
@@ -40800,15 +40697,6 @@ LOAD BALANCING:
 3.13124 1.59785 0.31076 0 0 0
 3.07333 1.88114 0.360045 0 0 0
 3.08277 1.84353 0.316606 0 0 0
-
-Trajectories completed:                   40 %
-Est. time to finish:                     177 seconds
-Time allocated for job:                14282 seconds
-SIMULATION EFFICIENCY: 
-    4 % of time was spent computing trajectories.
-LOAD BALANCING: 
-    Fastest process has tallied 3 trajectories.
-    Slowest process has tallied 3 trajectories.
 3.01369 1.95959 0.293805 0 0 0
 3.03598 1.8633 0.290592 0 0 0
 3.02926 2.05644 0.281443 0 0 0
@@ -41468,15 +41356,6 @@ LOAD BALANCING:
 2.51504 0.0731314 -0.057122 0 0 0
 2.50225 0.025749 -0.048585 0 0 0
 2.51401 0.096355 -0.0737464 0 0 0
-
-Trajectories completed:                   60 %
-Est. time to finish:                      78 seconds
-Time allocated for job:                14281 seconds
-SIMULATION EFFICIENCY: 
-    4 % of time was spent computing trajectories.
-LOAD BALANCING: 
-    Fastest process has tallied 4 trajectories.
-    Slowest process has tallied 4 trajectories.
 2.55497 0.138676 -0.102332 0 0 0
 2.54885 0.104038 -0.0989506 0 0 0
 2.56769 0.123587 -0.0968184 0 0 0
@@ -42695,19 +42574,10 @@ LOAD BALANCING:
 3.33508 0.75031 0.00592968 0 0 0
 3.35223 0.739292 -0.0254863 0 0 0
 3.32801 0.624763 0.00162064 0 0 0
-
-Trajectories completed:                   80 %
-Est. time to finish:                      29 seconds
-Time allocated for job:                14281 seconds
-SIMULATION EFFICIENCY: 
-    4 % of time was spent computing trajectories.
-LOAD BALANCING: 
-    Fastest process has tallied 5 trajectories.
-    Slowest process has tallied 3.28103 0.802031 0.0231073 0 0 0
+3.28103 0.802031 0.0231073 0 0 0
 3.23786 0.579207 0.113839 0 0 0
 3.18221 0.745915 0.112197 0 0 0
 3.16022 1.05651 0.132826 0 0 0
-5 trajectories.
 3.14691 0.920975 0.114343 0 0 0
 3.15943 1.14553 0.12426 0 0 0
 3.12665 0.790429 0.0915821 0 0 0
@@ -273080,18 +272950,3 @@ LOAD BALANCING:
 -59.4976 -31.8669 -2.62308 0 0 0
 -58.696 -33.1693 -2.47135 0 0 0
 -58.72 -34.087 -2.28701 0 0 0
-
-Trajectories completed:                  100 %
-Est. time to finish:                       0 seconds
-Time allocated for job:                14279 seconds
-SIMULATION EFFICIENCY: 
-    6 % of time was spent computing trajectories.
-LOAD BALANCING: 
-    Fastest process has tallied 5 trajectories.
-    Slowest process has tallied 5 trajectories.
-[32m../src/simulation.cc:798: info message: Simulation completed
-[0mShortest simulated trajectory time = -27533 s
-Longest simulated trajectory time = -3.1536e+07 s
-Time per trajectory integration:
-	cpu 1 = 1636.4 ms
-Total time of this simulation:                  120 seconds.
